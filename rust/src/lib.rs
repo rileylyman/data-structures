@@ -3,6 +3,9 @@
 #[allow(dead_code)]
 mod min_heap;
 
+#[allow(dead_code)]
+mod red_black_tree;
+
 #[cfg(test)]
 mod tests {
     use super::min_heap::Heap;
